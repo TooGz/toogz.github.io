@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DRAFT_POSTSs on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/draft_posts/</link>
+    <description>Recent content in DRAFT_POSTSs on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 24 Dec 2018 12:29:41 +0800</lastBuildDate>
+    
+	<atom:link href="https://toogz.github.io/draft_posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The &#34;figure&#34; Shortcode</title>
+      <link>https://toogz.github.io/draft_posts/the-figure-shortcode/</link>
+      <pubDate>Mon, 24 Dec 2018 12:29:41 +0800</pubDate>
+      
+      <guid>https://toogz.github.io/draft_posts/the-figure-shortcode/</guid>
+      <description>Hugo has figure shortcode built in, so you can easily add figcaptions or hyperlink rel attributes to images. Documentations can be found here:
+https://gohugo.io/content-management/shortcodes/#figure
+This theme has 3 CSS classes made for figure elements:
+ big: images will break the width limit of main content area. left: images will float to the left. right: images will float to the right.  If a figure has no class set, the image will behave just like a normal markdown image: !</description>
+    </item>
+    
+    <item>
+      <title>Post With Featured Image</title>
+      <link>https://toogz.github.io/draft_posts/post-with-featured-image/</link>
+      <pubDate>Mon, 01 Oct 2018 16:15:09 +0800</pubDate>
+      
+      <guid>https://toogz.github.io/draft_posts/post-with-featured-image/</guid>
+      <description>Just define the image URL in the content’s front matter, the featured image will be displayed as the background.
+For example:
+---images:-https://picsum.photos/1024/768/?random--- This is an array, you can set multiple urls, only the first url will be used. These images is also used in Twitter Cards and the Open Graph metadata.</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://toogz.github.io/draft_posts/typography/</link>
+      <pubDate>Sat, 29 Sep 2018 11:36:33 +0800</pubDate>
+      
+      <guid>https://toogz.github.io/draft_posts/typography/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>https://toogz.github.io/draft_posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/draft_posts/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://toogz.github.io/draft_posts/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/draft_posts/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://toogz.github.io/draft_posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/draft_posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://toogz.github.io/draft_posts/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/draft_posts/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>15 kits Flat UI gratuits pour les Web designer</title>
+      <link>https://toogz.github.io/draft_posts/15-kits-flat-ui-gratuits-pour-les-web-designer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/draft_posts/15-kits-flat-ui-gratuits-pour-les-web-designer/</guid>
+      <description>Et voici une petite sélection de 15 kits d&amp;rsquo;interface &amp;laquo;&amp;nbsp;Flat&amp;nbsp;&amp;raquo;, tendance qui commence à faire pas mal d&amp;rsquo;émules depuis quelques temps.
+Au fil de mes vagabondages sur le net (on appel ça de la veille aussi il parait), je tombe sur une quantité assez incroyable de ressources pour web designer. Il y a du bon et du moins bon. J&amp;rsquo;essaierais de temps en temps de vous partager ma petite sélection du moment.</description>
+    </item>
+    
+    <item>
+      <title>15 timelapses fixes par Matt Molloy</title>
+      <link>https://toogz.github.io/draft_posts/15-timelapses-fixes-par-matt-molloy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/draft_posts/15-timelapses-fixes-par-matt-molloy/</guid>
+      <description>Matt Molloy réalise de superbes paysages, armé de son Canon 60D. Aucunes retouches ici, mais un assemblage d&amp;rsquo;images utilisées au départ pour un timelapse. Il nous propose donc des timelapse fixes Bonne semaine à vous.
+Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  Matt Molloy  </description>
+    </item>
+    
+    <item>
+      <title>30 photos de films replacées dans leur contexte</title>
+      <link>https://toogz.github.io/draft_posts/30-photos-de-films-replacees-dans-leur-contexte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/draft_posts/30-photos-de-films-replacees-dans-leur-contexte/</guid>
+      <description>Toujours pour bien commencer la semaine, voici une sélection de 30 images de films remises dans leur environnement original. Elles sont tirées du tumblr spécialisé dans le genre.
+Ghost &amp;#8211; 1990  Primal Fear &amp;#8211; 1996  Two Weeks Notice &amp;#8211; 2002  One Fine Day &amp;#8211; 1996  Superman &amp;#8211; 1978  Home Alone 2 &amp;#8211; Lost In New-York &amp;#8211; 1992  The Family Man &amp;#8211; 2000  Spiderman 3 &amp;#8211; 2007  New Years Eve &amp;#8211; 2011  Live And Let Die &amp;#8211; 1973  Three Men And A Little Lady &amp;#8211; 1990  Meet Dave &amp;#8211; 2008  You&#39;ve Got A Mail &amp;#8211; 1998  American Psycho &amp;#8211; 2000  Doctor Who : The Angels Take Manhattan &amp;#8211; 2012  Wall Street Money Never Sleeps &amp;#8211; 2010  Men In Black II &amp;#8211; 2002  Home Alone 2 &amp;#8211; Lost In New-York- 1992  The Avengers &amp;#8211; 2012  The Boondock Saints &amp;#8211; 1999  Doctor Who : The Angels Take Manhatten &amp;#8211; 2012  The French Connection &amp;#8211; 1971  Die Hard With A Vengeance &amp;#8211; 1995  Leon &amp;#8211; 1994  Panic Room &amp;#8211; 2002  Last Night &amp;#8211; 1998  25th Hour &amp;#8211; 2002  Little Manhattan &amp;#8211; 2005  Uptown Girls &amp;#8211; 2003  Breakfast at Tiffany&#39;s &amp;#8211; 1961  </description>
+    </item>
+    
+  </channel>
+</rss>

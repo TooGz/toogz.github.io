@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="La profondeur de champ et le flou d&#39;arrière plan (ou le bokeh), quelques explications">
+<meta itemprop="description" content="Il va de soit que vous avez lu l&rsquo;article sur l&rsquo;ouverture, vous connaissez donc son effet sur la profondeur de champ. Et si vous avez essayer de pratiquer un peu, vous avez pu vous rendre compte que l&rsquo;ouverture n&rsquo;est pas le seul facteur qui a un impact sur le profondeur de champ (PDC). Vous avez raison et si elle n&rsquo;est pas très compliqué à comprendre, la gestion de la profondeur de champ est difficile à expliquer sans sortir la calculette.">
+
+
+
+<meta itemprop="wordCount" content="653">
+
+
+
+<meta itemprop="keywords" content="arrière plan,arrière plan flou,bokeh,flou,freakyfreah,freakyworkshop,net,netteté,ouverture,Photo,profondeur de champ,tuto,workshop,zone de netteté," />
+<meta property="og:title" content="La profondeur de champ et le flou d&#39;arrière plan (ou le bokeh), quelques explications" />
+<meta property="og:description" content="Il va de soit que vous avez lu l&rsquo;article sur l&rsquo;ouverture, vous connaissez donc son effet sur la profondeur de champ. Et si vous avez essayer de pratiquer un peu, vous avez pu vous rendre compte que l&rsquo;ouverture n&rsquo;est pas le seul facteur qui a un impact sur le profondeur de champ (PDC). Vous avez raison et si elle n&rsquo;est pas très compliqué à comprendre, la gestion de la profondeur de champ est difficile à expliquer sans sortir la calculette." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://toogz.github.io/draft_posts/la-profondeur-de-champ-et-le-flou-darriere-plan-ou-le-bokeh-quelques-explications/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="La profondeur de champ et le flou d&#39;arrière plan (ou le bokeh), quelques explications"/>
+<meta name="twitter:description" content="Il va de soit que vous avez lu l&rsquo;article sur l&rsquo;ouverture, vous connaissez donc son effet sur la profondeur de champ. Et si vous avez essayer de pratiquer un peu, vous avez pu vous rendre compte que l&rsquo;ouverture n&rsquo;est pas le seul facteur qui a un impact sur le profondeur de champ (PDC). Vous avez raison et si elle n&rsquo;est pas très compliqué à comprendre, la gestion de la profondeur de champ est difficile à expliquer sans sortir la calculette."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>La profondeur de champ et le flou d&#39;arrière plan (ou le bokeh), quelques explications</title>
+	<link rel="stylesheet" href="https://toogz.github.io/css/style.min.246eb90e4c82dca21d19f4c30548e7c77354c56783a1a0cc8e64a03446b613a1.css" integrity="sha256-JG65DkyC3KIdGfTDBUjnx3NUxWeDoaDMjmSgNEa2E6E=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://toogz.github.io">TooGz&#39;s Blog</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://toogz.github.io/posts/">Posts</a>
+				<a href="https://toogz.github.io/about/">About</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/toogz" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://instagram.com/toogz" target="_blank" rel="noopener me" title="Instagram"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></a><a href="https://github.com/toogz" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://toogz.github.io/posts/">Posts</a></li>
+			<li><a href="https://toogz.github.io/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner thin animated fadeIn faster">
+		<h1>La profondeur de champ et le flou d&#39;arrière plan (ou le bokeh), quelques explications</h1>
+		<div class="content">
+			
+
+<p>Il va de soit que vous avez lu l&rsquo;article sur l&rsquo;<a href="http://freakyfresh.fr/les-bases-de-la-photographie-part-1-3-ouverture/" title="Les bases de la photographie [PART 1/3]: l’Ouverture.">ouverture</a>, vous connaissez donc son effet sur la <strong>profondeur de champ</strong>. Et si vous avez essayer de pratiquer un peu, vous avez pu vous rendre compte que l&rsquo;ouverture n&rsquo;est pas le seul facteur qui a un impact sur le <strong>profondeur de champ</strong> (<strong>PDC</strong>). Vous avez raison et si elle n&rsquo;est pas très compliqué à comprendre, la gestion de la <strong>profondeur de champ</strong> est difficile à expliquer sans sortir la calculette.</p>
+
+<p>Ma mission, si je l&rsquo;accepte (apparemment, c&rsquo;est bon), est d&rsquo;essayer de vous expliquer comment maitriser votre <strong>PDC</strong> sans vous faire mal à la tête. Ici on parlera pratique plutôt que technique. Le but est que vous maitrisiez la <strong>PDC</strong>.</p>
+
+<h4 id="rappels-sur-l-ouverture">Rappels sur l&rsquo;ouverture<a href="#rappels-sur-l-ouverture" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+
+<p>Un petit rappel sur <strong>l&rsquo;ouverture</strong> ne sera pas superflu (on appel ça de la marteau-téraphie <img src="http://freakyfresh.fr/wp/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> ). <strong>L&rsquo;ouverture</strong>, caractérisée par <strong>l&rsquo;ouverture</strong> (f/2.6, f/3.5-5.6 etc…) agit sur la zone de netteté, aussi appelée plan focal. Plus vous aurez une grande <strong>ouverture</strong> (chiffre du f le plus petit), plus votre <strong>profondeur de champ</strong> sera petite. C&rsquo;est à dire que la zone ou les choses seront nets sera réduite. A l&rsquo;inverse, une petite <strong>ouverture</strong> (chifre du f plus grand, f/22 par exemple) vous offrira une zone de netteté beaucoup plus grande.</p>
+
+<p>[fancy_box title=&nbsp;&raquo;Examples&nbsp;&raquo;]<br />
+[fancy_images width=&nbsp;&raquo;268&Prime; height=&nbsp;&raquo;268&Prime;]<br />
+[image title=&nbsp;&raquo;Image Test &#8211; 50mm f/1.4 1/13s ISO 100&Prime; alt=&nbsp;&raquo;Image Test &#8211; 50mm f/1.4 1/13s ISO 100&Prime; caption=&nbsp;&raquo;f/1.4 1/13s ISO 100&Prime;]/images/2012/08/TUTO_OUVERTURE.jpg[/image]<br />
+[image title=&nbsp;&raquo;Image Test &#8211; 50mm f/13 3,2s ISO 100&Prime; alt=&nbsp;&raquo;Image Test &#8211; 50mm f/13 3,2s ISO 100&Prime; caption=&nbsp;&raquo;f/13 3,2s ISO 100&Prime;]/images/2012/08/TUTO_OUVERTURE-4.jpg[/image]<br />
+[/fancy_images]<br />
+Cliquez sur les miniatures pour voir les images en grand format<br />
+[/fancy_box]</p>
+
+<p>Il est aussi a noté que le <strong>flou</strong> est de plus en plus prononcé à mesure que l&rsquo;<strong>arrière plan</strong> s&rsquo;éloigne du sujet. Cela ne signifie pas que d&rsquo;avoir un <strong>arrière plan</strong> plus éloigné modifiera la <strong>profondeur de champ</strong>, mais simplement que le <strong>flou</strong> sera plus flou <img src="http://freakyfresh.fr/wp/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /><br />
+Ceci nous emmène donc aux autres paramètres influant sur la <strong>profondeur de champ</strong> (plus précisément sur son rendu).</p>
+
+<h4 id="distance-arrière-plan-par-rapport-au-sujet">Distance arrière plan par rapport au sujet<a href="#distance-arrière-plan-par-rapport-au-sujet" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+
+<p>La distance entre l&rsquo;<strong>arrière plan </strong>et votre sujet jouera un rôle sur le rendu du flou de votre arrière plan (que nous appellerons dorénavant le bokeh). Comme nous l&rsquo;avons vu précédemment, techniquement votre <strong>profondeur de champ</strong> restera identique, c&rsquo;est simplement que le flou s&rsquo;accentuera en fonction de la distance de votre arrière plan, donnant un <strong>bokeh</strong> plus prononcé à votre photo.</p>
+
+<p>[fancy_box title=&nbsp;&raquo;Impact de la distance de l&rsquo;arrière plan par rapport au sujet&nbsp;&raquo;]<br />
+[fancy_images width=&nbsp;&raquo;268&Prime; height=&nbsp;&raquo;268&Prime;]<br />
+[image title=&nbsp;&raquo;La profondeur de champ et le flou d&rsquo;arrière plan ou bokeh&nbsp;&raquo; alt=&nbsp;&raquo;La profondeur de champ et le flou d&rsquo;arrière plan ou bokeh&nbsp;&raquo;]/images/2012/09/PDC__GRAPH__PRO<em>4845.jpg[/image]<br />
+[image title=&nbsp;&raquo;La profondeur de champ et le flou d&rsquo;arrière plan ou bokeh&nbsp;&raquo; alt=&nbsp;&raquo;La profondeur de champ et le flou d&rsquo;arrière plan ou bokeh&nbsp;&raquo;]/images/2012/09/PDC</em>_GRAPH__PRO<em>4847.jpg[/image]<br />
+[image title=&nbsp;&raquo;La profondeur de champ et le flou d&rsquo;arrière plan ou bokeh&nbsp;&raquo; alt=&nbsp;&raquo;La profondeur de champ et le flou d&rsquo;arrière plan ou bokeh&nbsp;&raquo;]/images/2012/09/PDC</em>_GRAPH__PRO_4848.jpg[/image]<br />
+[/fancy_images]<br />
+[/fancy_box]Les images parlent d&rsquo;elles même et on voit clairement que la distance entre l&rsquo;<strong>arrière plan</strong> et le sujet joue un rôle sur le rendu du <strong>bokeh</strong> (le flou d&rsquo;<strong>arrière plan</strong>).</p>
+
+<h4 id="distance-entre-l-appareil-photo-et-le-sujet">Distance entre l&rsquo;appareil photo et le sujet<a href="#distance-entre-l-appareil-photo-et-le-sujet" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+
+<p>La distance entre l&rsquo;appareil à le même effet que vu précédemment. Je m&rsquo;explique. Quand vous rapprochez votre reflex de votre sujet, vous &laquo;&nbsp;éloignez&nbsp;&raquo; l&rsquo;arrière plan de celui-ci. C&rsquo;est une vue de l&rsquo;esprit comme on dit <img src="http://freakyfresh.fr/wp/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /></p>
+
+<h4 id="conclusion">Conclusion<a href="#conclusion" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+
+<p>Pour finir, voici un (magnifique) schéma qui résume la situation.<br />
+[image_frame style=&nbsp;&raquo;framed_shadow&nbsp;&raquo; alt=&nbsp;&raquo;/images/2012/09/schema1.png&nbsp;&raquo;]/images/2012/09/schema1.png[/image_frame]<br />
+Lorsque la <strong>mise au point</strong> est faite sur votre sujet (ici le point jaune) vous avez une zone de netteté qui est fonction de votre <strong>ouverture</strong>. Tout ce qui est derrière (et devant ne l&rsquo;oublions pas) sera de plus en plus <strong>flou</strong> à mesure que l&rsquo;on éloigne de la** zone de netteté**.<br />
+Maintenant il ne reste plus qu&rsquo;a pratiquer, toujours, encore afin que tout cela devienne automatique.<br />
+Si des zones d&rsquo;ombres persistent, n&rsquo;hésitez pas à poser vos questions dans les commentaires.</p>
+
+		</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2019 <a href="https://toogz.github.io">TooGz</a> &#183; \(O_o)/</p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; <a href="https://toogz.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://toogz.github.io/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

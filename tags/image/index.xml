@@ -14,10 +14,10 @@
     
     <item>
       <title>The &#34;figure&#34; Shortcode</title>
-      <link>https://toogz.github.io/posts/the-figure-shortcode/</link>
+      <link>https://toogz.github.io/draft_posts/the-figure-shortcode/</link>
       <pubDate>Mon, 24 Dec 2018 12:29:41 +0800</pubDate>
       
-      <guid>https://toogz.github.io/posts/the-figure-shortcode/</guid>
+      <guid>https://toogz.github.io/draft_posts/the-figure-shortcode/</guid>
       <description>Hugo has figure shortcode built in, so you can easily add figcaptions or hyperlink rel attributes to images. Documentations can be found here:
 https://gohugo.io/content-management/shortcodes/#figure
 This theme has 3 CSS classes made for figure elements:
@@ -26,10 +26,10 @@ This theme has 3 CSS classes made for figure elements:
     
     <item>
       <title>Post With Featured Image</title>
-      <link>https://toogz.github.io/posts/post-with-featured-image/</link>
+      <link>https://toogz.github.io/draft_posts/post-with-featured-image/</link>
       <pubDate>Mon, 01 Oct 2018 16:15:09 +0800</pubDate>
       
-      <guid>https://toogz.github.io/posts/post-with-featured-image/</guid>
+      <guid>https://toogz.github.io/draft_posts/post-with-featured-image/</guid>
       <description>Just define the image URL in the content’s front matter, the featured image will be displayed as the background.
 For example:
 ---images:-https://picsum.photos/1024/768/?random--- This is an array, you can set multiple urls, only the first url will be used. These images is also used in Twitter Cards and the Open Graph metadata.</description>
@@ -37,10 +37,10 @@ For example:
     
     <item>
       <title>Comprendre les 6 licences Creative Commons pour mieux protéger vos photos</title>
-      <link>https://toogz.github.io/posts/comprendre-les-6-licences-creative-commons-pour-mieux-proteger-vos-photos/</link>
+      <link>https://toogz.github.io/draft_posts/comprendre-les-6-licences-creative-commons-pour-mieux-proteger-vos-photos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toogz.github.io/posts/comprendre-les-6-licences-creative-commons-pour-mieux-proteger-vos-photos/</guid>
+      <guid>https://toogz.github.io/draft_posts/comprendre-les-6-licences-creative-commons-pour-mieux-proteger-vos-photos/</guid>
       <description>Depuis peu, le site de partage de photo 500px est passé à la Creative Commons, ce qui offre une plus grande souplesse dans la gestion des droits de nos images. C&amp;rsquo;est pourquoi je me suis penché sur cette licence dans cet article.
 Quatres options de base pour protéger vos oeuvres  Attribution Toutes les licences Creative Commons obligent ceux qui utilisent vos oeuvres à vous créditer de la manière dont vous le demandez, sans pour autant suggérer que vous approuvez leur utilisation ou leur donner votre aval ou votre soutien.</description>
     </item>
