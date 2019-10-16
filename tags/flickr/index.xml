@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FlickR on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/flickr/</link>
+    <description>Recent content in FlickR on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://toogz.github.io/tags/flickr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Découvrez de magnifiques photos sur 500px</title>
+      <link>https://toogz.github.io/posts/decouvrez-de-magnifiques-photos-sur-500px/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/decouvrez-de-magnifiques-photos-sur-500px/</guid>
+      <description>[image_frame style=&amp;nbsp;&amp;raquo;framed_shadow&amp;nbsp;&amp;raquo; align=&amp;nbsp;&amp;raquo;center&amp;nbsp;&amp;raquo; height=&amp;nbsp;&amp;raquo;866&amp;Prime; width=&amp;nbsp;&amp;raquo;614&amp;Prime;]/images/2012/09/500px.com_1.jpg[/image_frame]
+500px est un site Web de partage de photos. Ce site basé a Toronto a été créé par Oleg Gutsol et Evgeny Tchebotarev le 31 octobre 2009.
+Ce site ce distingue de ces concurrents avec une approche minimaliste qui va à l&amp;rsquo;essentiel. Minimalisme ne rime pas forcement avec simplisme et 500px offre (presque) tout ce dont un photographe exigeant est en mesure d&amp;rsquo;attendre d&amp;rsquo;un site qui se veut pro.</description>
+    </item>
+    
+  </channel>
+</rss>

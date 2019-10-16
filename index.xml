@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/</link>
+    <description>Recent content on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 10 Oct 2019 14:22:14 +0200</lastBuildDate>
+    
+	<atom:link href="https://toogz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ressources sur les moteurs 2 temps</title>
+      <link>https://toogz.github.io/posts/2019-10-10-ressources-sur-les-moteurs-2-temps/</link>
+      <pubDate>Thu, 10 Oct 2019 14:22:14 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-10-10-ressources-sur-les-moteurs-2-temps/</guid>
+      <description>Chassis Science et technique [](https://motochassis.com/)
+Techniques 2 temps   Documents sur le fonctionnement et la préparation des moteurs 2 temps  Size in bytes Name  44026075 (engines) - The Basic Design of Two-Stroke Engines.pdf   55128882 2StrokeDesign.pdf   2862449 A. Graham Bell - Two Stroke Performance Tuning.pdf   52062109 BibleDuMoteur2T.pdf   1750228 Le Gonflage des cyclomoteurs V2 - Didier Thomas.pdf   67629218 Motorcycle_Handling_And_Chassis_Design_Foale.</description>
+    </item>
+    
+    <item>
+      <title>Ressources sur l&#39;émulation</title>
+      <link>https://toogz.github.io/posts/2019-09-17-ressources-sur-l-emulation/</link>
+      <pubDate>Tue, 17 Sep 2019 11:29:32 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-09-17-ressources-sur-l-emulation/</guid>
+      <description> No-intro, ReDump&amp;hellip; de qui parle t&amp;rsquo;on ? Liens de téléchargement de rom/iso ?  RomCenter Sony Playstation EUR Redump (archive.org) Nintendo Gamecube EUR (archive.org)  Emulateurs  []()  </description>
+    </item>
+    
+    <item>
+      <title>Fabrication d&#39;un bartop (borne d&#39;arcade)</title>
+      <link>https://toogz.github.io/posts/2019-09-12-fabrication-d-un-bartop-borne-d-arcade/</link>
+      <pubDate>Thu, 12 Sep 2019 12:17:44 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-09-12-fabrication-d-un-bartop-borne-d-arcade/</guid>
+      <description>Introduction Amateur de jeux vidéos en général et de rétrogaming en particulier, également bricoleur dans mes temps libre, j&amp;rsquo;ai eu le declic pour commencer a imaginer ma borne d&amp;rsquo;arcade lorsque j&amp;rsquo;ai récupéré un ecran 7 pouces initialement déstiné à un usage pour un camping car. L&amp;rsquo;écran est evidemment obsolète, et n&amp;rsquo;ayant pas de camping car (de toute facon meme avec un camping car je ne l&amp;rsquo;aurais pas utilisé), je ne voyait aucune utilité a cet objet, et cela m&amp;rsquo;ennuyait de ne pas l&amp;rsquo;utiliser.</description>
+    </item>
+    
+    <item>
+      <title>Ressources sur les Shoot&#39;em Up</title>
+      <link>https://toogz.github.io/posts/2019-09-12-ressources-sur-les-shoot-em-up/</link>
+      <pubDate>Thu, 12 Sep 2019 12:07:44 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-09-12-ressources-sur-les-shoot-em-up/</guid>
+      <description>   Qu&amp;rsquo;est qu&amp;rsquo;un bon shmups ?  The Anatomy of a Shmup Designing a shoot em&amp;rsquo; up - tips n&amp;rsquo; tricks 101 Experience Design Assignment 2: Shoot-em-up Behind the Scenes: What makes a good SHMUP? (Breaking) The Shmup Dogma Designing smart, meaningful SHMUPs  Informations supplémentaires  What makes a good shmup?  Selection des meilleurs titres par console TurboGrafx-16  Blazing Lazers (Nom original: Gunhead) Super Star Solider  Megadrive (Genesis)  Musha Aleste: Full Metal Fighter Ellinor  </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://toogz.github.io/about/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/about/</guid>
+      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
+It makes use of a variety of open source projects including:
+ https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>J&#39;ai ressorti mon reflex</title>
+      <link>https://toogz.github.io/posts/2019-07-29-j-ai-ressorti-mon-reflex/</link>
+      <pubDate>Mon, 29 Jul 2019 16:43:45 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-07-29-j-ai-ressorti-mon-reflex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pico 8: Présentation et Ressources</title>
+      <link>https://toogz.github.io/posts/2019-04-26-pico8-presentation-et-ressources/</link>
+      <pubDate>Thu, 25 Apr 2019 14:09:45 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-04-26-pico8-presentation-et-ressources/</guid>
+      <description>PICO 8 RESSOURCES Officiel  Site officiel Documentation Wiki929973  2D PLATEFORMER PHYSICS  The guide to implementing 2D platformers Platformer controls: how to avoid limpness and rigidity feelings Mario gravity Plateformer physics 101 and the 3 fundamental equation of plateformer Physics in platformer games Super Mario Bros. 3 Physics a complete guide by Jdaster64 Envato - Basic 2D Platformer Physics Video Game Physics Tutorial - Part I: An Introduction to Rigid Body Dynamics Sonic Physics Guide A study of jumping in 2D platform games Jumping Thesis by Martin Fasterholdt Mechanics Automatically Recognized via Interactive Observation: Jumping  RESSOURCES  https://marcosecchi.</description>
+    </item>
+    
+    <item>
+      <title>The &#34;figure&#34; Shortcode</title>
+      <link>https://toogz.github.io/posts/the-figure-shortcode/</link>
+      <pubDate>Mon, 24 Dec 2018 12:29:41 +0800</pubDate>
+      
+      <guid>https://toogz.github.io/posts/the-figure-shortcode/</guid>
+      <description>Hugo has figure shortcode built in, so you can easily add figcaptions or hyperlink rel attributes to images. Documentations can be found here:
+https://gohugo.io/content-management/shortcodes/#figure
+This theme has 3 CSS classes made for figure elements:
+ big: images will break the width limit of main content area. left: images will float to the left. right: images will float to the right.  If a figure has no class set, the image will behave just like a normal markdown image: !</description>
+    </item>
+    
+    <item>
+      <title>Post With Featured Image</title>
+      <link>https://toogz.github.io/posts/post-with-featured-image/</link>
+      <pubDate>Mon, 01 Oct 2018 16:15:09 +0800</pubDate>
+      
+      <guid>https://toogz.github.io/posts/post-with-featured-image/</guid>
+      <description>Just define the image URL in the content’s front matter, the featured image will be displayed as the background.
+For example:
+---images:-https://picsum.photos/1024/768/?random--- This is an array, you can set multiple urls, only the first url will be used. These images is also used in Twitter Cards and the Open Graph metadata.</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://toogz.github.io/posts/typography/</link>
+      <pubDate>Sat, 29 Sep 2018 11:36:33 +0800</pubDate>
+      
+      <guid>https://toogz.github.io/posts/typography/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+  </channel>
+</rss>

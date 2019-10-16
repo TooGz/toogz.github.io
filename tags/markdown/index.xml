@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/markdown/</link>
+    <description>Recent content in Markdown on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://toogz.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown, une syntaxe qu&#39;elle est bien pour écrire du HTML !</title>
+      <link>https://toogz.github.io/posts/le-markdown-une-syntaxe-pour-ecrire-sur-le-web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/le-markdown-une-syntaxe-pour-ecrire-sur-le-web/</guid>
+      <description>Le markdown a d’abord été créer pour être aussi facile à écrire qu’à lire. À cet effet, la lisibilité est primordiale et un document écrit avec la syntaxe Markdown devrait être lisible tel quel, sans passez par la conversion Markdown &amp;gt; HTML.
+le Markdown, kézako ? L’objectif du Markdown est d’être utilisé comme format d’écriture pour le web. Pour ma part je l’utilise pour écrire mes articles depuis un petit moment maintenant, mais il peut aussi être utilisé par les visiteurs d’un site ou forum lors de la rédaction des commentaires par exemple.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ressources on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/ressources/</link>
+    <description>Recent content in ressources on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 25 Apr 2019 14:09:45 +0200</lastBuildDate>
+    
+	<atom:link href="https://toogz.github.io/tags/ressources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pico 8: Présentation et Ressources</title>
+      <link>https://toogz.github.io/posts/2019-04-26-pico8-presentation-et-ressources/</link>
+      <pubDate>Thu, 25 Apr 2019 14:09:45 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-04-26-pico8-presentation-et-ressources/</guid>
+      <description>PICO 8 RESSOURCES Officiel  Site officiel Documentation Wiki929973  2D PLATEFORMER PHYSICS  The guide to implementing 2D platformers Platformer controls: how to avoid limpness and rigidity feelings Mario gravity Plateformer physics 101 and the 3 fundamental equation of plateformer Physics in platformer games Super Mario Bros. 3 Physics a complete guide by Jdaster64 Envato - Basic 2D Platformer Physics Video Game Physics Tutorial - Part I: An Introduction to Rigid Body Dynamics Sonic Physics Guide A study of jumping in 2D platform games Jumping Thesis by Martin Fasterholdt Mechanics Automatically Recognized via Interactive Observation: Jumping  RESSOURCES  https://marcosecchi.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sensibilité on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/sensibilit%C3%A9/</link>
+    <description>Recent content in Sensibilité on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://toogz.github.io/tags/sensibilit%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Les bases de la photographie [PART 3/3]: la sensibilité</title>
+      <link>https://toogz.github.io/posts/les-bases-de-la-photographie-part-3-3-sensibilite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/les-bases-de-la-photographie-part-3-3-sensibilite/</guid>
+      <description>En photo, la sensibilité d&amp;rsquo;un capteur (ou d&amp;rsquo;une pellicule en argentique) définit sa capacité à imprimer l&amp;nbsp;&amp;raquo;image. A l&amp;rsquo;époque de l&amp;rsquo;argentique, c&amp;rsquo;est la pellicule qui avait une sensibilité différente. Donc il fallait prévoir en amont et surtout être cantonné a la sensibilité choisie durant toute la pellicule. A l&amp;rsquo;heure actuelle avec les boitiers numérique, la sensibilité est lié au capteur et peut donc varier facilement. Cela nous facilite grandement la tache puisque qu&amp;rsquo;on peut ajuster la sensibilité en temps réel.</description>
+    </item>
+    
+  </channel>
+</rss>

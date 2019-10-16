@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jpeg on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/jpeg/</link>
+    <description>Recent content in Jpeg on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://toogz.github.io/tags/jpeg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pourquoi il faut shooter en RAW !</title>
+      <link>https://toogz.github.io/posts/pourquoi-il-faut-shooter-en-raw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/pourquoi-il-faut-shooter-en-raw/</guid>
+      <description>Salut tout le monde, aujourd&amp;rsquo;hui on va parler format de fichier et plus particulièrement du format RAW.
+Pour brosser le tableau rapidement, les reflex numériques vous proposent 2 formats pour enregistrer vos photos: le JPEG (ou JPG) que vous connaissez tous et le RAW. Le RAW (qui signifie &amp;laquo;&amp;nbsp;brut&amp;nbsp;&amp;raquo; en Shakespearien) est un fichier qui n&amp;rsquo;est pas directement visualisable, c&amp;rsquo;est un fichier qui contient les informations brutes du capteur. Il est nécessaire de passer par une phase de traitement afin de générer un fichier pouvant être affiché.</description>
+    </item>
+    
+  </channel>
+</rss>

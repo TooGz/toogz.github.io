@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/wordpress/</link>
+    <description>Recent content in Wordpress on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://toogz.github.io/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 plugins gratuits pour l&#39;administration de WordPress</title>
+      <link>https://toogz.github.io/posts/selection-de-plugin-gratuit-pour-ladministration-de-wordpress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/selection-de-plugin-gratuit-pour-ladministration-de-wordpress/</guid>
+      <description>Quand on parle de plugin, on pense la plupart du temps a ajouter de nouvelles fonctions, se faciliter la tache, gagner du temps du coté utilisateur, le coté User first surement. On oublie plus souvent qu&amp;rsquo;il existe aussi des plugins ayant pour but d&amp;rsquo;optimiser l&amp;rsquo;espace qui vous sera le plus familier, l&amp;rsquo;interface d&amp;rsquo;administration.
+Voici une selection de 5 plugins pour vous, je m&amp;rsquo;attache a les tester en profondeur, et si jamais vous avez des retours ou des suggestions, je suis preneur !</description>
+    </item>
+    
+  </channel>
+</rss>

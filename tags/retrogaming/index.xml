@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retrogaming on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/retrogaming/</link>
+    <description>Recent content in Retrogaming on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 17 Sep 2019 11:29:32 +0200</lastBuildDate>
+    
+	<atom:link href="https://toogz.github.io/tags/retrogaming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ressources sur l&#39;émulation</title>
+      <link>https://toogz.github.io/posts/2019-09-17-ressources-sur-l-emulation/</link>
+      <pubDate>Tue, 17 Sep 2019 11:29:32 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-09-17-ressources-sur-l-emulation/</guid>
+      <description> No-intro, ReDump&amp;hellip; de qui parle t&amp;rsquo;on ? Liens de téléchargement de rom/iso ?  RomCenter Sony Playstation EUR Redump (archive.org) Nintendo Gamecube EUR (archive.org)  Emulateurs  []()  </description>
+    </item>
+    
+    <item>
+      <title>Fabrication d&#39;un bartop (borne d&#39;arcade)</title>
+      <link>https://toogz.github.io/posts/2019-09-12-fabrication-d-un-bartop-borne-d-arcade/</link>
+      <pubDate>Thu, 12 Sep 2019 12:17:44 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-09-12-fabrication-d-un-bartop-borne-d-arcade/</guid>
+      <description>Introduction Amateur de jeux vidéos en général et de rétrogaming en particulier, également bricoleur dans mes temps libre, j&amp;rsquo;ai eu le declic pour commencer a imaginer ma borne d&amp;rsquo;arcade lorsque j&amp;rsquo;ai récupéré un ecran 7 pouces initialement déstiné à un usage pour un camping car. L&amp;rsquo;écran est evidemment obsolète, et n&amp;rsquo;ayant pas de camping car (de toute facon meme avec un camping car je ne l&amp;rsquo;aurais pas utilisé), je ne voyait aucune utilité a cet objet, et cela m&amp;rsquo;ennuyait de ne pas l&amp;rsquo;utiliser.</description>
+    </item>
+    
+    <item>
+      <title>Ressources sur les Shoot&#39;em Up</title>
+      <link>https://toogz.github.io/posts/2019-09-12-ressources-sur-les-shoot-em-up/</link>
+      <pubDate>Thu, 12 Sep 2019 12:07:44 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-09-12-ressources-sur-les-shoot-em-up/</guid>
+      <description>   Qu&amp;rsquo;est qu&amp;rsquo;un bon shmups ?  The Anatomy of a Shmup Designing a shoot em&amp;rsquo; up - tips n&amp;rsquo; tricks 101 Experience Design Assignment 2: Shoot-em-up Behind the Scenes: What makes a good SHMUP? (Breaking) The Shmup Dogma Designing smart, meaningful SHMUPs  Informations supplémentaires  What makes a good shmup?  Selection des meilleurs titres par console TurboGrafx-16  Blazing Lazers (Nom original: Gunhead) Super Star Solider  Megadrive (Genesis)  Musha Aleste: Full Metal Fighter Ellinor  </description>
+    </item>
+    
+    <item>
+      <title>Pico 8: Présentation et Ressources</title>
+      <link>https://toogz.github.io/posts/2019-04-26-pico8-presentation-et-ressources/</link>
+      <pubDate>Thu, 25 Apr 2019 14:09:45 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-04-26-pico8-presentation-et-ressources/</guid>
+      <description>PICO 8 RESSOURCES Officiel  Site officiel Documentation Wiki929973  2D PLATEFORMER PHYSICS  The guide to implementing 2D platformers Platformer controls: how to avoid limpness and rigidity feelings Mario gravity Plateformer physics 101 and the 3 fundamental equation of plateformer Physics in platformer games Super Mario Bros. 3 Physics a complete guide by Jdaster64 Envato - Basic 2D Platformer Physics Video Game Physics Tutorial - Part I: An Introduction to Rigid Body Dynamics Sonic Physics Guide A study of jumping in 2D platform games Jumping Thesis by Martin Fasterholdt Mechanics Automatically Recognized via Interactive Observation: Jumping  RESSOURCES  https://marcosecchi.</description>
+    </item>
+    
+    <item>
+      <title>OpenEmu, l&#39;émulateur ultime</title>
+      <link>https://toogz.github.io/posts/openemu-retrogaming-lemulateur-ultime/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/openemu-retrogaming-lemulateur-ultime/</guid>
+      <description>Je ne sais pas pour vous, mais pour ma part, ces derniers temps, je suis a fond sur le rétrogaming. Rejouer aux jeux qui ont bercés mon enfance est un vrai plaisir, décuplé par la simplicité d&amp;rsquo;OpenEmu.
+Cela fait un moment que je n&amp;rsquo;étais pas venu poster un petit message par ici. Et mon retour se fera avec une petite perle de logiciel: OpenEmu, l&amp;rsquo;iTunes du RétroGaming
+Retour en force du rétrogaming Je ne sais pas pour vous, mais pour ma part, ces derniers temps, je suis a fond sur le rétrogaming.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stats on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/stats/</link>
+    <description>Recent content in Stats on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://toogz.github.io/tags/stats/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sortie d&#39;iOS 6.1 &amp;#8211; Quelques statistiques impressionantes de l&#39;écosystème Apple</title>
+      <link>https://toogz.github.io/posts/sortie-dios-6-1-quelques-statistiques-impressionantes-de-lecosysteme-apple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/sortie-dios-6-1-quelques-statistiques-impressionantes-de-lecosysteme-apple/</guid>
+      <description>Apple a profité de la sortie d&amp;rsquo;iOS pour mettre un peu les choses au clair en envoyant quelques chiffres assez impressionnants qui tournent autour de son écosystème. Ceci alors que les résultats de la firme de Cupertino annoncés en début de semaine ont été vivement critiqués par la presse mondiale, le cours de l&amp;rsquo;action le montrant parfaitement.
+[fancy_list style=&amp;nbsp;&amp;raquo;check_list&amp;nbsp;&amp;raquo;]
+ 300 millions de terminaux équipés d’iOS 6 Plus de 40 milliards de téléchargements sur l’App Store Les utilisateurs iOS ont uploadé plus de 9 milliards de photo avec PhotoStream Plus de 450 milliards d&amp;rsquo;iMessages envoyés et reçus Et plus de 4000 milliards (O_o) de notifications seront passées par les serveurs pommés  [/fancy_list]</description>
+    </item>
+    
+  </channel>
+</rss>

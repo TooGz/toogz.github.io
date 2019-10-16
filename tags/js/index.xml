@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>js on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/js/</link>
+    <description>Recent content in js on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://toogz.github.io/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rapidité de votre site web : quelques règles de bonne conduite.</title>
+      <link>https://toogz.github.io/posts/rapidite-de-votre-site-web-quelques-regles-de-bonne-conduite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/rapidite-de-votre-site-web-quelques-regles-de-bonne-conduite/</guid>
+      <description>La vitesse de votre site, est quelque chose de primordiale lors de la conception de site ou application web. La performance générale de vos pages web a un impact certain sur l&amp;rsquo;expérience de vos visiteurs et donc votre nombre de visites.
+Plusieurs études montrent que la vitesse de chargement avait pour conséquence une réduction du trafic (20% pour 500ms selon l&amp;rsquo;étude réalisée par Google) et/ou des ventes dans le cas du commerce en ligne (1% pour 100ms de plus - Etude Amazon).</description>
+    </item>
+    
+  </channel>
+</rss>

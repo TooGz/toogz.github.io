@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emulation on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/emulation/</link>
+    <description>Recent content in emulation on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 17 Sep 2019 11:29:32 +0200</lastBuildDate>
+    
+	<atom:link href="https://toogz.github.io/tags/emulation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ressources sur l&#39;émulation</title>
+      <link>https://toogz.github.io/posts/2019-09-17-ressources-sur-l-emulation/</link>
+      <pubDate>Tue, 17 Sep 2019 11:29:32 +0200</pubDate>
+      
+      <guid>https://toogz.github.io/posts/2019-09-17-ressources-sur-l-emulation/</guid>
+      <description> No-intro, ReDump&amp;hellip; de qui parle t&amp;rsquo;on ? Liens de téléchargement de rom/iso ?  RomCenter Sony Playstation EUR Redump (archive.org) Nintendo Gamecube EUR (archive.org)  Emulateurs  []()  </description>
+    </item>
+    
+  </channel>
+</rss>

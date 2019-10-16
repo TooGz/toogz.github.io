@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FishEye on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/fisheye/</link>
+    <description>Recent content in FishEye on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://toogz.github.io/tags/fisheye/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Créations personnelles, portraits numériques</title>
+      <link>https://toogz.github.io/posts/creations-personnelles-portraits-numeriques/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/creations-personnelles-portraits-numeriques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prise en main du Samyang 8mm f/3.5 UMC Fish-Eye CS II</title>
+      <link>https://toogz.github.io/posts/prise-en-main-du-samyang-8mm-f3-5-umc-fish-eye-cs-ii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/prise-en-main-du-samyang-8mm-f3-5-umc-fish-eye-cs-ii/</guid>
+      <description>Le fish-eye m’a toujours attiré et cela fait un moment que j’envisage l’achat d’un objectif méga-ultra-grand-angle ! C’est vrai que le rendu “œil de poisson” est particulier mais aussi très “délire”. Son usage spécifique rend cet objectif utile dans certaines circonstances et totalement inapproprié dans d’autre.
+En fait, il est parfait dans pour donner un style du genre “vidéo de skate”. Le Fish-Eye permet aussi des prises de vue bien fun.</description>
+    </item>
+    
+  </channel>
+</rss>

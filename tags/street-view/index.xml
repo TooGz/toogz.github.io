@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Street View on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/street-view/</link>
+    <description>Recent content in Street View on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://toogz.github.io/tags/street-view/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Créer un Hyperlapse avec Google Street View</title>
+      <link>https://toogz.github.io/posts/creer-un-hyperlapse-avec-google-street-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/creer-un-hyperlapse-avec-google-street-view/</guid>
+      <description>Le timelapse, vous connaissez. L&amp;rsquo;hyperlapse peut être moins. Pour faire simple, un hyperlapse est un timelapse en mouvement (plusieurs centaines de mètres, voir, kilomètres ).
+Quelques exemples d&amp;rsquo;hyperlapse :
+hyperlapse  hyperlapse  hyperlapse  hyperlapse  Alors, vous vous dites que vous aussi vous aimeriez faire de beaux Hyperlapse mais que c&amp;rsquo;est difficile et qu&amp;rsquo;il faut du matos et tout et tout. Et bien vous avez raison. Mais heureusement pour vous les labs de Teehan+Lax ont chauffés, et ils ont créé Google Street View Hyperlapse.</description>
+    </item>
+    
+  </channel>
+</rss>

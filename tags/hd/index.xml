@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HD on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/hd/</link>
+    <description>Recent content in HD on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://toogz.github.io/tags/hd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Et GoPro annonce la Hero3</title>
+      <link>https://toogz.github.io/posts/et-gopro-annonce-la-hero3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/et-gopro-annonce-la-hero3/</guid>
+      <description>La société GoPro a présenté ce matin la GoPro Hero3. En réalité, ce ne sont pas moins de 3 modèles qui ont été annoncés. Les 3 modèles intègre tous le module wifi en interne permettant de piloter la caméra avec une télécommande, et sont plus compact que le modèle précédent, la Hero2.
+La White edition, l&amp;rsquo;entrée de gamme a les mêmes caractéristiques techniques que la Hero2 du point de vue vidéo et une résolution limitée à 5 Mégapixels pour les photos pour un prix de 249€.</description>
+    </item>
+    
+  </channel>
+</rss>

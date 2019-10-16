@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ball Camera on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/ball-camera/</link>
+    <description>Recent content in Ball Camera on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://toogz.github.io/tags/ball-camera/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ball Camera, ou comment faire des panoramas à 360°</title>
+      <link>https://toogz.github.io/posts/ball-camera-ou-comment-faire-des-panoramas-a-360/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/ball-camera-ou-comment-faire-des-panoramas-a-360/</guid>
+      <description>Un appareil photo ludique et qui vous offres la possibilité de prendre des panoramas sur 360° le tout sans connaissances particulières, vous en rêvez ? (si si je le sais ) Techniquement, la Ball Camera est équipé de 36 modules photos de 2Mpx issus de la téléphonie, d&amp;rsquo;un accéléromètre qui permettra de déclencher la prise de vue au point le plus haut et de toute l&amp;rsquo;électronique nécessaire. Tout ce petit monde est protégé par une coque sphérique faite maison grâce au procédé d&amp;rsquo;impression 3D et enveloppée de mousse.</description>
+    </item>
+    
+  </channel>
+</rss>

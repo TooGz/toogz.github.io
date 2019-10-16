@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Markdown, une syntaxe qu&#39;elle est bien pour écrire du HTML !">
+<meta itemprop="description" content="Le markdown a d’abord été créer pour être aussi facile à écrire qu’à lire. À cet effet, la lisibilité est primordiale et un document écrit avec la syntaxe Markdown devrait être lisible tel quel, sans passez par la conversion Markdown &gt; HTML.
+le Markdown, kézako ? L’objectif du Markdown est d’être utilisé comme format d’écriture pour le web. Pour ma part je l’utilise pour écrire mes articles depuis un petit moment maintenant, mais il peut aussi être utilisé par les visiteurs d’un site ou forum lors de la rédaction des commentaires par exemple.">
+
+
+
+<meta itemprop="wordCount" content="1321">
+
+
+
+<meta itemprop="keywords" content="HTML,Markdown,web," />
+<meta property="og:title" content="Markdown, une syntaxe qu&#39;elle est bien pour écrire du HTML !" />
+<meta property="og:description" content="Le markdown a d’abord été créer pour être aussi facile à écrire qu’à lire. À cet effet, la lisibilité est primordiale et un document écrit avec la syntaxe Markdown devrait être lisible tel quel, sans passez par la conversion Markdown &gt; HTML.
+le Markdown, kézako ? L’objectif du Markdown est d’être utilisé comme format d’écriture pour le web. Pour ma part je l’utilise pour écrire mes articles depuis un petit moment maintenant, mais il peut aussi être utilisé par les visiteurs d’un site ou forum lors de la rédaction des commentaires par exemple." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://toogz.github.io/posts/le-markdown-une-syntaxe-pour-ecrire-sur-le-web/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Markdown, une syntaxe qu&#39;elle est bien pour écrire du HTML !"/>
+<meta name="twitter:description" content="Le markdown a d’abord été créer pour être aussi facile à écrire qu’à lire. À cet effet, la lisibilité est primordiale et un document écrit avec la syntaxe Markdown devrait être lisible tel quel, sans passez par la conversion Markdown &gt; HTML.
+le Markdown, kézako ? L’objectif du Markdown est d’être utilisé comme format d’écriture pour le web. Pour ma part je l’utilise pour écrire mes articles depuis un petit moment maintenant, mais il peut aussi être utilisé par les visiteurs d’un site ou forum lors de la rédaction des commentaires par exemple."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Markdown, une syntaxe qu&#39;elle est bien pour écrire du HTML !</title>
+	<link rel="stylesheet" href="https://toogz.github.io/css/style.min.246eb90e4c82dca21d19f4c30548e7c77354c56783a1a0cc8e64a03446b613a1.css" integrity="sha256-JG65DkyC3KIdGfTDBUjnx3NUxWeDoaDMjmSgNEa2E6E=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://toogz.github.io">TooGz&#39;s Blog</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://toogz.github.io/posts/">Posts</a>
+				<a href="https://toogz.github.io/about/">About</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/toogz" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://instagram.com/toogz" target="_blank" rel="noopener me" title="Instagram"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></a><a href="https://github.com/toogz" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://toogz.github.io/posts/">Posts</a></li>
+			<li><a href="https://toogz.github.io/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>1 Jan 0001</span></div>
+				<h1>Markdown, une syntaxe qu&#39;elle est bien pour écrire du HTML !</h1>
+			</header>
+			<div class="content">
+				
+
+<p>Le markdown a d’abord été créer pour être aussi facile à écrire qu’à lire. À cet effet, la lisibilité est primordiale et un document écrit avec la syntaxe <em>Markdown</em> devrait être lisible tel quel, sans passez par la conversion <em>Markdown</em> &gt; HTML.</p>
+
+<h2 id="le-markdown-kézako">le <em>Markdown</em>, kézako ?<a href="#le-markdown-kézako" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+
+<p>L’objectif du <em>Markdown</em> est d’être utilisé comme format d’écriture pour le web. Pour ma part je l’utilise pour écrire mes articles depuis un petit moment maintenant, mais il peut aussi être utilisé par les visiteurs d’un site ou forum lors de la rédaction des commentaires par exemple.</p>
+
+<h2 id="éléments-de-bloc">Éléments de bloc.<a href="#éléments-de-bloc" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+
+<h3 id="paragraphes-et-saut-de-ligne">Paragraphes et saut de ligne.<a href="#paragraphes-et-saut-de-ligne" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>On va commencer tranquillement avec les paragraphes. En <em>Markdown</em>, un paragraphe n’est rien d’autre qu’une ou plusieurs lignes consécutives de texte non indentées. Par <em>non indentée</em>, j’entends que les lignes de texte ne sont pas précédées d’espace ou de tabulation (bref, la ligne commence par un caractère quoi !). Petite subtilité du <em>Markdown</em> concernant les sauts de lignes (\<br />
+en HTML). Afin de créer un saut de ligne au sein d’un paragraphe, terminez simplement votre ligne avec deux espaces, puis faites un retour à la ligne.</p>
+
+<p>Pour terminer un paragraphe et en commencer un nouveau, créer simplement une ligne vide avant de commencer votre second paragraphe.</p>
+
+<p>Un peu de pratique:</p>
+
+<pre><code>La marche du vertueux est semée d’obstacles qui sont les entreprises égoïstes que fait sans fin surgir l’oeuvre du Malin. Béni soit-il, l’homme de bonne volonté qui au nom de la charité se fait le berger des faibles qu’il guide dans la vallée de la mort et des larmes, car il est le gardien et la providence des enfants qui se sont égarés ? J’abattrai alors le bras d’une terrible colère, d’une vengeance furieuse et effrayante sur les impies qui pourchassent et anéantissent les brebis de Dieu, et tu sauras pourquoi mon nom est l’Éternel quand s’abattra sur toi la vengeance du Tout Puissant.
+
+Pas besoin d’expliquer d’où viens cette tirade, vous aurez reconnu tout seul. {espace} {espace}  
+Si ? {espace} {espace}  
+Bon, OK.
+
+Cette tirade est une transcription
+d’une partie du dialogue de Samuel L. Jackson
+qu’il
+prononce dans
+Pulp 
+Fiction
+</code></pre>
+
+<p>Une fois passée par la moulinette <em>Markdown</em>, on a :</p>
+
+<pre><code>&lt;p&gt;La marche du vertueux est semée d’obstacles qui sont les entreprises égoïstes que fait sans fin surgir l’oeuvre du Malin. Bénit soit-il, l’homme de bonne volonté qui au nom de la charité se fait le berger des faibles qu’il guide dans la vallée de la mort et des larmes, car il est le gardien et la providence des enfants qui se sont égarés ? J’abattrai alors le bras d’une terrible colère, d’une vengeance furieuse et effrayante sur les impies qui pourchassent et anéantissent les brebis de Dieu, et tu sauras pourquoi mon nom est l’Éternel quand s’abattra sur toi la vengeance du Tout Puissant.&lt;/p&gt;
+
+&lt;p&gt;Pas besoin d’expliquer d'ou viens cette tirade, vous aurez reconnu tout seul.&lt;br /&gt;
+Non ?&lt;br /&gt;
+Bon, OK.&lt;/p&gt;
+
+&lt;p&gt;Cette tirade est une transcription d’une partie du dialogue de Samuel L. Jackson qu’il prononce dans Pulp Fiction&lt;/p&gt;
+</code></pre>
+
+<h3 id="les-titres">Les titres<a href="#les-titres" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p><em>Markdown</em> propose 2 syntaxes pour les titres, je n’exposerai ici que la version j’utilise qui me semble plus simple à mettre en oeuvre.<br />
+Les titres de niveau 1 à 6 (H1 -&gt; H6) sont rendus en <em>Markdown</em> avec le symbole # (de 1 à 6 pour ceux qui suivent).</p>
+
+<pre><code># Un titre H1
+## Un titre H2
+### Un titre H3 
+#### Un titre H4
+##### Un titre H5
+###### Un titre H6
+</code></pre>
+
+<p>produira:</p>
+
+<pre><code>&lt;h1&gt;Un titre H1&lt;/h1&gt;
+&lt;h2&gt;Un titre H2&lt;/h2&gt;
+&lt;h3&gt;Un titre H3&lt;/h3&gt;
+&lt;h4&gt;Un titre H4&lt;/h4&gt;
+&lt;h5&gt;Un titre H5&lt;/h5&gt;
+&lt;h6&gt;Un titre H6&lt;/h6&gt;
+</code></pre>
+
+<p>Les titres peuvent également se terminer par #, mais ce n’est pas obligatoire. Le nombre de # qui clôture n’ayant pas d’importance. C’est le nombre de dièses ouvrant qui détermine le niveau du titre.</p>
+
+<pre><code># Un titre H1 #
+## Un titre H2 #
+### Un titre H3 #####
+#### Un titre H4 ####
+##### Un titre H5 ##
+###### Un titre H6 ###
+</code></pre>
+
+<p>produira le même code HTML que ci-dessus:</p>
+
+<pre><code>&lt;h1&gt;Un titre H1&lt;/h1&gt;
+&lt;h2&gt;Un titre H2&lt;/h2&gt;
+&lt;h3&gt;Un titre H3&lt;/h3&gt;
+&lt;h4&gt;Un titre H4&lt;/h4&gt;
+&lt;h5&gt;Un titre H5&lt;/h5&gt;
+&lt;h6&gt;Un titre H6&lt;/h6&gt;
+</code></pre>
+
+<h3 id="citations">Citations<a href="#citations" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>Si vous êtes familier de la syntaxe en mode texte des mails, la méthode <em>Markdown</em> devrait vous parler (« Hey, tu m’entends ? C’est la méthode Markdown qui te parle ! »)</p>
+
+<pre><code>&gt; Mais moi les dingues, j’les soigne
+&gt; j’m’en vais lui faire une ordonnance, et une sévère
+&gt; J’vais lui montrer qui c’est Raoul
+&gt; Aux quatre coins de Paris qu’on va l'retrouver
+&gt; Éparpillé façon puzzle...
+&gt; Moi quand on m’en fait trop j’correctionne plus
+&gt; J’dynamite... j’disperse... et j’ventile... 
+</code></pre>
+
+<p>On peut aussi imbriquer les citations en ajoutant un niveau</p>
+
+<pre><code>&gt; Voici un premier niveau de citation
+&gt;
+&gt; &gt; Et hop, un deuxième niveau de citation
+&gt;
+&gt; &gt; Magie du direct, retour au premier niveau de citation
+</code></pre>
+
+<p>Il est également possible de mettre tout autre élément <em>Markdown</em> (listes, lien, titres, etc.) à l’intérieur d’une citation:</p>
+
+<pre><code>&gt; ## Le titre de ma citation
+&gt;
+&gt; 1. Premier item d’une liste ordonnée
+&gt; 2. Deuxième élément de la liste
+&gt;
+&gt; Un petit bout de code ?
+&gt;
+&gt;   &lt;? php echo &quot;Hello World !&quot;; ? &gt;
+</code></pre>
+
+<h3 id="listes">Listes<a href="#listes" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>Vous voulez aussi faire des listes, à puces (non-ordonnées) ou numérotées (ordonnées) ? <em>Markdown</em> est encore là et s’utilise encore très intuitivement.</p>
+
+<p>Liste non ordonnée:</p>
+
+<pre><code>* Pierre
+* Paul
+* Jacques
+</code></pre>
+
+<p>ou encore:</p>
+
+<pre><code>- Bleu
+- Blanc
+- Rouge
+</code></pre>
+
+<p>mais aussi:</p>
+
+<pre><code>+ iPod
++ iPhone
++ iPad
+</code></pre>
+
+<p>Pour les listes ordonnées, c’est encore plus simple !</p>
+
+<pre><code>1. One
+2. Two
+3. Three
+</code></pre>
+
+<p>Il faut préciser que l’ordre des nombres n’a aucune importance dans le code HTML qui sera généré. Il sera à chaque fois rendu de la sorte:</p>
+
+<pre><code>&lt;ol&gt;
+&lt;li&gt;One&lt;/li&gt;
+&lt;li&gt;Two&lt;/li&gt;
+&lt;li&gt;Three&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+
+<h3 id="lignes-horizontales">Lignes horizontales<a href="#lignes-horizontales" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>Il est aussi possible de créer des séparations horizontales (hr )</p>
+
+<pre><code>* * *
+***
+*****
+- - -
+------------------------
+</code></pre>
+
+<h2 id="elements-de-texte">Elements de texte<a href="#elements-de-texte" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+
+<h3 id="liens">Liens<a href="#liens" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>Deux possibilités pour les liens en <em>Markdown</em>. La méthode incorporée au texte et par référence.</p>
+
+<p>Cette fois-ci nouveau caractère, le [crochet].</p>
+
+<p>Version <em>incorporée au texte</em>:</p>
+
+<pre><code>Voici [un lien] (http://jaiunegrosseteu.be/ &quot;titre du lien&quot;) en mode incorporé au texte.
+
+Le même [lien] (http://jaiunegrosseteu.be/) mais sans titre.
+</code></pre>
+
+<p>Ce qui donnera:</p>
+
+<pre><code>&lt;p&gt;Voici &lt;a href=&quot; http://jaiunegrosseteu.be/ » title=&quot; titre du lien&quot;&gt;un lien&lt;/a&gt; en mode incorporé au texte.&lt;/p&gt;
+&lt;p&gt;le même &lt;a href=&quot; http://jaiunegrosseteu.be/&quot;&gt;lien&lt;/a&gt; mais sans titre.&lt;/p&gt;
+</code></pre>
+
+<p>En mode <em>par référence</em>:</p>
+
+<pre><code>Hey, je suis un [Lien]
+[1] référencé.
+
+Ensuite n’importe où, ajoutez:
+
+[1]: http://jaiunegrosseteu.be/ &quot;Titre facultatif&quot;
+</code></pre>
+
+<p>Pour la lisibilité, je préfère les liens référencés, et pour ma part je place les références à la fin de mon texte.</p>
+
+<h3 id="emphase">Emphase<a href="#emphase" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p><em>Markdown</em> est fort, ça, vous l’avez vu. Il peut aussi en ajouter (de la force) à votre prose.</p>
+
+<p>Les astérisques (*) et les underscores (_) vous permettront de baliser votre texte avec l’élément * et si vous les doublez em deviendra strong</p>
+
+<p>Exemples:</p> </p> </p> </p></p>
+
+<pre><code>TooGz est un mec vraiment *génial*.
+
+TooGz est un mec vraiment _génial_.
+</code></pre>
+
+<p>deviendra:</p>
+
+<pre><code>&lt;p&gt;TooGz est un mec &lt;em&gt;génial&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;TooGz est un mec &lt;em&gt;génial&lt;/em&gt;.&lt;/p&gt;
+</code></pre>
+
+<p>Mais vous en conviendrez, on peut mieux faire, et voici comment:</p>
+
+<pre><code>TooGz est un mec **génial**.
+
+TooGz est un mec __génial__.
+</code></pre>
+
+<p>et hop:</p>
+
+<pre><code>&lt;p&gt;TooGz est un mec &lt;strong&gt;génial&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;TooGz est un mec &lt;strong&gt;génial&lt;/strong&gt;.&lt;/p&gt;
+</code></pre>
+
+<h3 id="images">Images<a href="#images" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>Pour les images, qui ne sont ni plus ni moins des liens, on se rapproche de la méthode de liens vue plus haut. Avec ses 2 variantes: <em>incorporées au texte</em> et <em>par référence</em>.</p>
+
+<p>Incorporées:</p>
+
+<pre><code>![texte alternatif] (/chemin/de/image.jpg &quot;titre optionnel&quot;)
+</code></pre>
+
+<p>Par référence:</p>
+
+<pre><code>![texte alternatif] [id]
+</code></pre>
+
+<p>et où vous le souhaitez:</p>
+
+<pre><code>[id]: /chemin/de/image.jpg &quot;titre optionnel&quot;
+</code></pre>
+
+<h2 id="pour-finir">Pour finir<a href="#pour-finir" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+
+<p>Et voilà, je pense que nous avons fait le tour des principales fonctionnalités que procure le <em>Markdown</em>. Vous verrez qu’il demande que très peu de temps d’adaptation et vous fait économiser du temps lors de la rédaction de contenu destiné au Web.</p>
+
+<p>Si vous souhaitez approfondir le sujet, je ne saurais trop vous recommander d’aller jeter un oeil sur le site du créateur de la <a href="http://daringfireball.net/projects/markdown/syntax/" title="Daring Fireball">Syntaxe Markdown</a>.</p>
+
+			</div>
+
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>TooGz</p>
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://toogz.github.io/tags/html">HTML</a></span><span class="tag"><a href="https://toogz.github.io/tags/markdown">Markdown</a></span><span class="tag"><a href="https://toogz.github.io/tags/web">web</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1321 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>01-01-0001 00:09 &#43;0009</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="https://toogz.github.io/posts/les-differents-types-dobjectifs-pour-votre-reflex-aps-c-et-plein-format/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>Les différents types d&#39;objectifs pour votre reflex (APS-C et Plein Format)</span>
+			</a>
+			<a class="prev-post" href="https://toogz.github.io/posts/mieux-que-photoshop-un-bon-combat-de-boxe/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Mieux que photoshop, un bon combat de boxe !</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2019 <a href="https://toogz.github.io">TooGz</a> &#183; \(O_o)/</p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; <a href="https://toogz.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://toogz.github.io/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

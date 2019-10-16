@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OS X on TooGz&#39;s Blog</title>
+    <link>https://toogz.github.io/tags/os-x/</link>
+    <description>Recent content in OS X on TooGz&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 09 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://toogz.github.io/tags/os-x/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenEmu, l&#39;émulateur ultime</title>
+      <link>https://toogz.github.io/posts/openemu-retrogaming-lemulateur-ultime/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://toogz.github.io/posts/openemu-retrogaming-lemulateur-ultime/</guid>
+      <description>Je ne sais pas pour vous, mais pour ma part, ces derniers temps, je suis a fond sur le rétrogaming. Rejouer aux jeux qui ont bercés mon enfance est un vrai plaisir, décuplé par la simplicité d&amp;rsquo;OpenEmu.
+Cela fait un moment que je n&amp;rsquo;étais pas venu poster un petit message par ici. Et mon retour se fera avec une petite perle de logiciel: OpenEmu, l&amp;rsquo;iTunes du RétroGaming
+Retour en force du rétrogaming Je ne sais pas pour vous, mais pour ma part, ces derniers temps, je suis a fond sur le rétrogaming.</description>
+    </item>
+    
+  </channel>
+</rss>
